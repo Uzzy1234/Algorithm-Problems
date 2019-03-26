@@ -8,7 +8,7 @@ function primeNums(n) {
         result.push(i)
       }
     }
-    return result
+    return result.length
   }
   
-  //console.log(primeNums(1000))
+//   console.log(primeNums(1000))

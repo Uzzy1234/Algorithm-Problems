@@ -8,4 +8,4 @@ function uniqueNumCheck(arr) {
     return Object.values(freqCheckObj).length
 }
 
-//console.log(uniqueNumCheck([1, 2, 5, 3, 3, 2, 7]))
+// console.log(uniqueNumCheck([1, 2, 5, 3, 3, 2, 7]))
