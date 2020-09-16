@@ -4,11 +4,13 @@
 
 function numCheck(array1, total_num) {
 
-  for (i = 0; i < array1.length; i++) {
-    for (j = i + 1; j < array1.length; j++) {
-      return (array1[i] + array1[j] == total_num)
+    for (i = 0; i < array1.length; i++) {
+        for (j = i + 1; j < array1.length; j++) {
+            console.log(array1[i], array1[j], total_num)
+            if (array1[i] + array1[j] == total_num) return true
+        }
     }
-  }
+    return false
 }
 
 //console.log(numCheck([1, 2, 5, 3], 10))
